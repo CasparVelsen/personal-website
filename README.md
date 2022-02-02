@@ -1,3 +1,3 @@
-### Hi there, my name is Caspar
+### Hi there, this is my personal website
 
-I am 18 years old and currently learning how to code at neuefische GmbH
+Here you can find some things about myself
