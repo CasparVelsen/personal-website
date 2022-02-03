@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Roboto+Slab:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(118, 148, 112);
+}
+
+body {
+  background-color: rgb(86, 107, 88);
+  margin: 25px 25px 25px 25px;
+  padding: 25px 25px 25px 25px;
+  font-family: "Roboto Slab";
+  font-weight: bolder;
+  color: white;
+}
+
+.special-header {
+  font-family: "Bebas Neue";
+  font-size: 400%;
+  font-weight: lighter;
+  color: white;
+}
+
+section {
+  background-color: rgb(118, 148, 112);
+  margin: auto;
+  stroke-width: 0;
+  height: fit-content;
+  border-radius: 0px 50px;
+}
