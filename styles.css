@@ -54,6 +54,7 @@ body {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #biography {
@@ -67,6 +68,7 @@ body {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .informations-text {
@@ -76,8 +78,6 @@ body {
   margin: 20px;
   width: fit-content;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 #contact {
