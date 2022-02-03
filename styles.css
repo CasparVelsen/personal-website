@@ -6,6 +6,7 @@
 
 header {
   background-color: rgb(118, 148, 112);
+  text-align: center;
 }
 
 body {
@@ -28,6 +29,13 @@ section {
   background-color: rgb(118, 148, 112);
   margin: auto;
   stroke-width: 0;
-  height: fit-content;
+  height: auto;
+  width: auto;
   border-radius: 0px 50px;
+  text-align: center;
+}
+
+address {
+  background-color: rgb(175, 218, 167);
+  display: initial;
 }
