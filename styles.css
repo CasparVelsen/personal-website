@@ -6,8 +6,8 @@
 
 .header {
   padding: 25px;
-  text-align: center;
-  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
 }
 
 .special-header {
@@ -31,24 +31,91 @@
 
 body {
   background-color: rgb(86, 107, 88);
-  margin: 25px 25px 25px 25px;
-  padding: 25px 25px 25px 25px;
+  margin: 0;
+  padding: 0px 100px 0px 100px;
   font-family: "Roboto Slab";
   font-weight: bolder;
   color: white;
 }
 
-section {
+#thats-me {
+  background-color: rgb(134, 134, 134);
+  border-radius: 10px;
+}
+
+#cv {
   background-color: rgb(118, 148, 112);
   stroke-width: 0;
+  margin-top: 50px;
   height: auto;
   width: auto;
-  border-radius: 0px 50px;
+  border-radius: 0px 100px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#biography {
+  background-color: rgb(118, 148, 112);
+  stroke-width: 0;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  border-radius: 0px 100px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.informations-text {
+  background-color: rgb(134, 166, 127);
+  border-radius: 0px 100px;
+  padding: 10px;
+  margin: 20px;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#contact {
+  background-color: rgb(118, 148, 112);
+  stroke-width: 0;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  border-radius: 0px 100px;
+  text-align: left;
+  padding: 20px;
+}
+
+.section-header {
+  background-color: rgb(86, 107, 88);
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.profilbild {
+  padding: 50px;
+  border-radius: 0px 175px;
+}
+
+figure {
   text-align: center;
 }
 
-address {
-  background-color: rgb(175, 218, 167);
-  display: flex;
-  flex-direction: column;
+figcaption {
+  background-color: rgb(86, 107, 88);
+}
+
+.address {
+  background-color: rgb(86, 107, 88);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  gap: 20px;
 }
