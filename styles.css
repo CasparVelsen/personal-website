@@ -132,6 +132,8 @@ figure {
 
 figcaption {
   background-color: rgb(86, 107, 88);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .address {
