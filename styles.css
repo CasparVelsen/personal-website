@@ -95,6 +95,7 @@ body {
   margin: 20px;
   width: fit-content;
   display: flex;
+  flex-wrap: wrap;
 }
 
 #contact {
@@ -123,8 +124,6 @@ body {
   border-radius: 0px 100px;
   padding: 40px;
   margin: 20px;
-  width: fit-content;
-  height: fit-content;
 }
 
 #social-media {
@@ -145,15 +144,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.header-social-media {
-  background-color: rgb(134, 134, 134);
-  box-shadow: 0px 5px 10px rgb(74, 74, 74);
-  padding: 10px;
-  width: fit-content;
-  height: fit-content;
-  border-radius: 10px;
 }
 
 .informations-socia-media {
@@ -208,8 +198,15 @@ figcaption {
 .address {
   background-color: rgb(86, 107, 88);
   border-radius: 10px;
-  padding: 10px;
+  margin: 0px;
+  padding: 15px;
   color: white;
+  box-shadow: 0px 5px 10px rgb(74, 74, 74);
+}
+
+.address-flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .button-top {
