@@ -23,6 +23,7 @@
 
 .button {
   background-color: rgb(134, 134, 134);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   color: white;
   padding: 15px;
   margin: 5px;
@@ -40,12 +41,14 @@ body {
 
 .thats-me {
   background-color: rgb(134, 134, 134);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   border-radius: 10px;
   padding: 5px;
 }
 
 #cv {
   background-color: rgb(118, 148, 112);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -60,6 +63,7 @@ body {
 
 #biography {
   background-color: rgb(118, 148, 112);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -74,6 +78,7 @@ body {
 
 .informations-text {
   background-color: rgb(134, 166, 127);
+  box-shadow: 0px 10px 10px rgb(74, 74, 74);
   border-radius: 0px 100px;
   padding: 10px;
   margin: 20px;
@@ -83,6 +88,7 @@ body {
 
 #contact {
   background-color: rgb(118, 148, 112);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -97,6 +103,7 @@ body {
 
 .informations-contact {
   background-color: rgb(134, 166, 127);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   border-radius: 0px 100px;
   padding: 40px;
   margin: 20px;
@@ -106,6 +113,7 @@ body {
 
 #social-media {
   background-color: rgb(118, 148, 112);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -120,6 +128,7 @@ body {
 
 .header-social-media {
   background-color: rgb(86, 107, 88);
+  box-shadow: 0px 5px 10px rgb(74, 74, 74);
   padding: 10px;
   width: fit-content;
   height: fit-content;
@@ -128,6 +137,7 @@ body {
 
 .informations-socia-media {
   background-color: rgb(86, 107, 88);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   border-radius: 0px 100px;
   padding: 40px;
   margin: 20px;
@@ -139,6 +149,7 @@ body {
 
 .section-header {
   background-color: rgb(86, 107, 88);
+  box-shadow: 0px 5px 10px rgb(74, 74, 74);
   padding: 10px;
   width: fit-content;
   height: fit-content;
@@ -154,6 +165,15 @@ body {
 
 figure {
   text-align: center;
+}
+
+.social-media-icons {
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  border-radius: 25px 25px;
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
 }
 
 figcaption {
@@ -172,6 +192,7 @@ figcaption {
 
 .button-top {
   background-color: rgb(134, 134, 134);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
   color: white;
   padding: 10px;
   margin: 5px;
