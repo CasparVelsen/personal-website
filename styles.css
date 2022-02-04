@@ -46,7 +46,7 @@ body {
   padding: 5px;
 }
 
-#cv {
+#biography {
   background-color: rgb(118, 148, 112);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   stroke-width: 0;
@@ -61,7 +61,7 @@ body {
   justify-content: space-around;
 }
 
-#biography {
+#cv {
   background-color: rgb(118, 148, 112);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   stroke-width: 0;
