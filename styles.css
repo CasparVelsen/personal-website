@@ -50,6 +50,11 @@ body {
 #biography {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(86, 107, 88) 100%
+  );
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -65,6 +70,11 @@ body {
 #cv {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(86, 107, 88) 100%
+  );
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -90,6 +100,11 @@ body {
 #contact {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(86, 107, 88) 100%
+  );
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -115,6 +130,11 @@ body {
 #social-media {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(95, 117, 97) 100%
+  );
   stroke-width: 0;
   margin-top: 50px;
   height: auto;
@@ -139,6 +159,7 @@ body {
 .informations-socia-media {
   background-color: rgb(86, 107, 88);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
+
   border-radius: 0px 100px;
   padding: 40px;
   margin: 20px;
