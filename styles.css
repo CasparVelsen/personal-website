@@ -38,9 +38,10 @@ body {
   color: white;
 }
 
-#thats-me {
+.thats-me {
   background-color: rgb(134, 134, 134);
   border-radius: 10px;
+  padding: 5px;
 }
 
 #cv {
