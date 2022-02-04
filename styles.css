@@ -101,6 +101,7 @@ body {
   padding: 40px;
   margin: 20px;
   width: fit-content;
+  height: fit-content;
 }
 
 #social-media {
@@ -112,6 +113,25 @@ body {
   border-radius: 0px 100px;
   text-align: center;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.header-social-media {
+  background-color: rgb(86, 107, 88);
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.informations-socia-media {
+  background-color: rgb(86, 107, 88);
+  border-radius: 0px 100px;
+  padding: 40px;
+  margin: 20px;
+  width: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -135,15 +155,15 @@ figure {
 }
 
 figcaption {
-  background-color: rgb(86, 107, 88);
+  background-color: rgb(118, 148, 112);
   padding: 10px;
+  margin-top: 15px;
   border-radius: 10px;
 }
 
 .address {
   background-color: rgb(86, 107, 88);
   border-radius: 10px;
-  color: white;
   padding: 10px;
-  gap: 20px;
+  color: white;
 }
