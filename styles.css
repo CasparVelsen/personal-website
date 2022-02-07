@@ -1,5 +1,7 @@
 @import url("base.css");
 @import url("utility.css");
+@import url("buttons.css");
+@import url(headlines-and-captions.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Roboto+Slab:wght@200&display=swap");
