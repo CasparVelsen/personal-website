@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import ./ @import
+  url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Roboto+Slab:wght@200&display=swap");
 * {
   box-sizing: border-box;
 }
 
-.header {
+.header__navigation {
   padding: 25px;
   display: flex;
   justify-content: center;
 }
 
-.special-header {
+.header__h1-headline {
   font-family: "Bebas Neue";
   font-size: 600%;
   font-weight: lighter;
@@ -22,7 +23,7 @@
   height: 0;
 }
 
-.button {
+.header__navigation__button {
   background-color: rgb(134, 134, 134);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   color: white;
@@ -40,14 +41,14 @@ body {
   color: white;
 }
 
-.thats-me {
+.profile-picture__h2-caption {
   background-color: rgb(134, 134, 134);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   border-radius: 10px;
   padding: 5px;
 }
 
-#biography {
+.biography-section {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   background: linear-gradient(
@@ -67,7 +68,7 @@ body {
   justify-content: space-around;
 }
 
-#cv {
+.cv-section {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   background: linear-gradient(
@@ -87,7 +88,7 @@ body {
   justify-content: space-around;
 }
 
-.informations-text {
+.biography-and-cv-section__text {
   background-color: rgb(134, 166, 127);
   box-shadow: 0px 10px 10px rgb(74, 74, 74);
   border-radius: 0px 100px;
@@ -98,7 +99,7 @@ body {
   flex-wrap: wrap;
 }
 
-#contact {
+.contact-section {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   background: linear-gradient(
@@ -118,7 +119,7 @@ body {
   justify-content: space-around;
 }
 
-.informations-contact {
+.contact-section__text {
   background-color: rgb(134, 166, 127);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   border-radius: 0px 100px;
@@ -126,7 +127,21 @@ body {
   margin: 20px;
 }
 
-#social-media {
+.address__button {
+  background-color: rgb(86, 107, 88);
+  border-radius: 10px;
+  margin: 0px;
+  padding: 15px;
+  color: white;
+  box-shadow: 0px 5px 10px rgb(74, 74, 74);
+}
+
+.contact-section__address--flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-media-section {
   background-color: rgb(110, 138, 104);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   background: linear-gradient(
@@ -146,10 +161,9 @@ body {
   justify-content: space-around;
 }
 
-.informations-socia-media {
+.socia-media-section__text {
   background-color: rgb(86, 107, 88);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
-
   border-radius: 0px 100px;
   padding: 40px;
   margin: 20px;
@@ -159,7 +173,7 @@ body {
   justify-content: space-around;
 }
 
-.section-header {
+.section__header {
   background-color: rgb(134, 134, 134);
   box-shadow: 0px 5px 10px rgb(74, 74, 74);
   padding: 10px;
@@ -168,7 +182,7 @@ body {
   border-radius: 10px;
 }
 
-.profilbild {
+.profile-picture {
   padding: 50px;
   margin-top: -40px;
   margin-bottom: -25px;
@@ -179,7 +193,7 @@ figure {
   text-align: center;
 }
 
-.social-media-icons {
+.social-media-section__icons {
   padding: 10px;
   padding-left: 20px;
   padding-top: 20px;
@@ -188,6 +202,7 @@ figure {
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
 }
 
+/* figcaption of social-media icons */
 figcaption {
   background-color: rgb(118, 148, 112);
   padding: 10px;
@@ -195,21 +210,7 @@ figcaption {
   border-radius: 10px;
 }
 
-.address {
-  background-color: rgb(86, 107, 88);
-  border-radius: 10px;
-  margin: 0px;
-  padding: 15px;
-  color: white;
-  box-shadow: 0px 5px 10px rgb(74, 74, 74);
-}
-
-.address-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.button-top {
+.footer__navigation__button {
   background-color: rgb(134, 134, 134);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
   color: white;
