@@ -16,10 +16,8 @@
   font-weight: lighter;
   color: white;
   text-shadow: 0px 5px 10px rgb(74, 74, 74);
-  text-align: center;
   padding-bottom: 40px;
   box-sizing: content-box;
-  height: 0;
 }
 
 .button {
@@ -33,7 +31,6 @@
 
 body {
   background-color: rgb(86, 107, 88);
-  margin: 0;
   padding: 0px 100px 0px 100px;
   font-family: "Roboto Slab";
   font-weight: bolder;
@@ -55,12 +52,8 @@ body {
     rgb(110, 138, 104) 20%,
     rgb(86, 107, 88) 100%
   );
-  stroke-width: 0;
   margin-top: 50px;
-  height: auto;
-  width: auto;
   border-radius: 0px 100px;
-  text-align: left;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -75,12 +68,8 @@ body {
     rgb(110, 138, 104) 20%,
     rgb(86, 107, 88) 100%
   );
-  stroke-width: 0;
   margin-top: 50px;
-  height: auto;
-  width: auto;
   border-radius: 0px 100px;
-  text-align: left;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +82,6 @@ body {
   border-radius: 0px 100px;
   padding: 10px;
   margin: 20px;
-  width: fit-content;
   display: flex;
   flex-wrap: wrap;
 }
@@ -108,10 +96,7 @@ body {
   );
   stroke-width: 0;
   margin-top: 50px;
-  height: auto;
-  width: auto;
   border-radius: 0px 100px;
-  text-align: left;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -134,12 +119,7 @@ body {
     rgb(110, 138, 104) 20%,
     rgb(95, 117, 97) 100%
   );
-  stroke-width: 0;
   margin-top: 50px;
-  height: auto;
-  width: auto;
-  border-radius: 0px 100px;
-  text-align: center;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -149,11 +129,9 @@ body {
 .informations-socia-media {
   background-color: rgb(86, 107, 88);
   box-shadow: 0px 5px 20px rgb(74, 74, 74);
-
   border-radius: 0px 100px;
   padding: 40px;
   margin: 20px;
-  width: fit-content;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -163,8 +141,6 @@ body {
   background-color: rgb(134, 134, 134);
   box-shadow: 0px 5px 10px rgb(74, 74, 74);
   padding: 10px;
-  width: fit-content;
-  height: fit-content;
   border-radius: 10px;
 }
 
@@ -173,10 +149,6 @@ body {
   margin-top: -40px;
   margin-bottom: -25px;
   border-radius: 0px 175px;
-}
-
-figure {
-  text-align: center;
 }
 
 .social-media-icons {
