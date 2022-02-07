@@ -12,28 +12,28 @@
 
   <body>
     <header>
-      <h1 class="special-header">Caspar Velsen-Zerweck</h1>
-      <nav class="header">
-        <a class="button" href="#biography">Biography</a>
-        <a class="button" href="#cv">CV</a>
-        <a class="button" href="#contact">Contact</a>
+      <h1 class="header__h1-headline">Caspar Velsen-Zerweck</h1>
+      <nav class="header__navigation">
+        <a class="header__navigation__button" href="#biography">Biography</a>
+        <a class="header__navigation__button" href="#cv">CV</a>
+        <a class="header__navigation__button" href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
       <figure>
         <img
-          class="profilbild"
+          class="profile-picture"
           src="images/Profilbild.jpg"
           alt="Ein Profilbild von Caspar"
         />
-        <h2 class="thats-me">That's me</h2>
+        <h2 class="profile-picture__h2-caption">That's me</h2>
       </figure>
 
-      <section id="biography">
-        <h2 class="section-header">Biography</h2>
+      <section class="biography-section">
+        <h2 class="section__header">Biography</h2>
 
-        <section class="informations-text">
+        <section class="biography-and-cv-section__text">
           <h3>Short introduction of myself:</h3>
           <ul>
             <li>18 years old</li>
@@ -48,10 +48,10 @@
         </section>
       </section>
 
-      <section id="cv">
-        <h2 class="section-header">CV</h2>
+      <section class="cv-section">
+        <h2 class="section__header">CV</h2>
 
-        <section class="informations-text">
+        <section class="biography-and-cv-section__text">
           <h3>My accomplishments:</h3>
           <ul>
             <li>German fishing license 2014</li>
@@ -65,21 +65,23 @@
         </section>
       </section>
 
-      <section id="contact">
-        <h2 class="section-header">Contact</h2>
+      <section class="contact-section">
+        <h2 class="section__header">Contact</h2>
 
-        <section class="informations-contact">
-          <address class="address-flex">
+        <section class="contact-section__text">
+          <address class="contact-section__address--flex">
             <h3>Don't hesitate to contact me here:</h3>
             <ul>
               <li>
-                <a class="address" href="mailto:caspar@velsen-zerweck.de"
+                <a
+                  class="address__button"
+                  href="mailto:caspar@velsen-zerweck.de"
                   >E-mail: caspar@velsen-zerweck.de</a
                 >
               </li>
               <br /><br />
               <li>
-                <a class="address" href="tel:+491725666710"
+                <a class="address__button" href="tel:+491725666710"
                   >Tel.: +49 172 5666710</a
                 >
               </li>
@@ -88,10 +90,10 @@
         </section>
       </section>
 
-      <section id="social-media">
-        <h2 class="section-header">Find me here</h2>
-        <section class="informations-socia-media">
-          <figure class="social-media-icons">
+      <section class="social-media-section">
+        <h2 class="section__header">Find me here</h2>
+        <section class="socia-media-section__text">
+          <figure class="social-media-section__icons">
             <a href="https://github.com/CasparVelsen"
               ><img
                 src="images/github-logo.png"
@@ -102,7 +104,7 @@
             <figcaption>GitHub</figcaption>
           </figure>
 
-          <figure class="social-media-icons">
+          <figure class="social-media-section__icons">
             <a href="https://codepen.io/casparvelsen"
               ><img
                 src="images/codepen-logo.png"
@@ -113,7 +115,7 @@
             <figcaption>Codepen</figcaption>
           </figure>
 
-          <figure class="social-media-icons">
+          <figure class="social-media-section__icons">
             <a href="https://www.instagram.com/caspar_vlsn/"
               ><img
                 src="images/instagram-logo.png"
@@ -128,8 +130,8 @@
     </main>
 
     <footer>
-      <nav class="header">
-        <a class="button-top" href="#"
+      <nav class="header__navigation">
+        <a class="footer__navigation__button" href="#"
           ><img
             src="images/pfeil-nach-oben.png"
             alt="pfeil-nach-oben"

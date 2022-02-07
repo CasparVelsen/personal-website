@@ -1,0 +1,137 @@
+.header__navigation {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.biography-section {
+  background-color: rgb(110, 138, 104);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(86, 107, 88) 100%
+  );
+  stroke-width: 0;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  border-radius: 0px 100px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cv-section {
+  background-color: rgb(110, 138, 104);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(86, 107, 88) 100%
+  );
+  stroke-width: 0;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  border-radius: 0px 100px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.biography-and-cv-section__text {
+  background-color: rgb(134, 166, 127);
+  box-shadow: 0px 10px 10px rgb(74, 74, 74);
+  border-radius: 0px 100px;
+  padding: 10px;
+  margin: 20px;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-section {
+  background-color: rgb(110, 138, 104);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(86, 107, 88) 100%
+  );
+  stroke-width: 0;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  border-radius: 0px 100px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-section__text {
+  background-color: rgb(134, 166, 127);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  border-radius: 0px 100px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.contact-section__address--flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-media-section {
+  background-color: rgb(110, 138, 104);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  background: linear-gradient(
+    to bottom right,
+    rgb(110, 138, 104) 20%,
+    rgb(95, 117, 97) 100%
+  );
+  stroke-width: 0;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  border-radius: 0px 100px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.socia-media-section__text {
+  background-color: rgb(86, 107, 88);
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+  border-radius: 0px 100px;
+  padding: 40px;
+  margin: 20px;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.profile-picture {
+  padding: 50px;
+  margin-top: -40px;
+  margin-bottom: -25px;
+  border-radius: 0px 175px;
+}
+
+.social-media-section__icons {
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  border-radius: 25px 25px;
+  box-shadow: 0px 5px 20px rgb(74, 74, 74);
+}

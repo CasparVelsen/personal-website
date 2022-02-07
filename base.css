@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(86, 107, 88);
+  margin: 0;
+  padding: 0px 100px 0px 100px;
+  font-family: "Roboto Slab";
+  font-weight: bolder;
+  color: white;
+}
+
+figure {
+  text-align: center;
+}
+
+/* figcaption of social-media icons */
+figcaption {
+  background-color: rgb(118, 148, 112);
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
